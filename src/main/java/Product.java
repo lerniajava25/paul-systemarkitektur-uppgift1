@@ -1,6 +1,4 @@
-import java.text.Format;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 public class Product {
 
@@ -100,6 +98,4 @@ public class Product {
     public LocalDateTime getUpdatedAt() {
         return updatedAt;
     }
-
-
 }
